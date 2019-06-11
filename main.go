@@ -12,8 +12,7 @@ func main() {
 		},
 	}
 	adaHuang.print()
-	adaHuangPointer := &adaHuang
-	adaHuangPointer.update("Lisa", "Wong")
+	adaHuang.update("Lisa", "Wong")
 	fmt.Println("\nAfter being updated ...\n")
 	adaHuang.print()
 }

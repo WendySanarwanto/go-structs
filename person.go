@@ -10,8 +10,8 @@ type person struct {
 }
 
 func (p *person) update(_firstName string, _lastName string) {
-	(*p).firstName = _firstName
-	(*p).lastName = _lastName
+	p.firstName = _firstName
+	p.lastName = _lastName
 }
 
 func (p person) print() {

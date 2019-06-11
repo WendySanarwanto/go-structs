@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	adaHuang := person { 
 		firstName: "Ada", 
@@ -9,5 +11,8 @@ func main() {
 			zip: 8675309, 
 		},
 	}
+	adaHuang.print()
+	adaHuang.update("Lisa", "Wong")
+	fmt.Println("\nAfter being updated ...\n")
 	adaHuang.print()
 }
